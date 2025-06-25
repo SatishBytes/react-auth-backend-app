@@ -24,3 +24,5 @@ app.use('/products', ProductRouter);
 app.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`)
 })
+
+module.exports = app;
